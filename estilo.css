@@ -1,70 +1,68 @@
-*
-{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Dosis', sans-serif;
+
 }
 
-body
-{
+body {
     overflow-x: hidden;
+
 }
 
 /*navegador*/
-#wrapper
-{
+#row_nave {
     width: 100vw;
     height: 6vh;
     background-color: lightgray;
     color: rgba(81, 53, 241, 0.468);
-    padding: 3em;
+    padding: 2em;
 }
 
-.menu li{
+.menu li {
     list-style: none;
-    
+
 }
-.menu a
-{
+
+.menu a {
     color: rgba(81, 53, 241, 0.468);
     text-decoration: none;
-    font-size: 2em;
-   
+    font-size: 1em;
+
 
 }
 
-.menu{
+.menu {
     display: flex;
     width: 50%;
     justify-content: space-around;
-   
+
 }
 
-.menu a:hover
-{
+.menu a:hover {
     background-color: rgba(81, 53, 241, 0.468);
     transition: ease-in .03;
     border-radius: 10px;
-  
-}
-
-.brand{
-    margin-top: 2px;
-    
 
 }
 
-.brand h2
-{
-    font-size: 2em;
-    
-}
-.brand span
-{
-    color :rgba(0, 0, 0, 0.372);
+.brand {
+    margin-bottom: 0.4em;
+
+
 }
 
-.navbar{
+.brand h2 {
+    font-size: 1em;
+
+}
+
+.brand span {
+    color: rgba(0, 0, 0, 0.372);
+}
+
+.navbar {
     display: flex;
     justify-content: space-between;
     padding: 2em;
@@ -74,136 +72,129 @@ body
 
 
 
-#acerca_de_mi{
+#acerca_de_mi {
     background-color: lightgray;
-    text-align:center;
+    text-align: center;
     align-items: center;
     padding: 3em;
     width: 100vw;
     height: 100vh;
-   
+
 }
 
-#acerca_de_mi h2
-{
-    font-size: 3em;
+#acerca_de_mi h2 {
+    font-size: 2em;
     color: rgba(81, 53, 241, 0.468);
     margin-top: -200px;
     text-align: left;
 }
 
-.menu_informacion  
-{
-    font-size: 2em;
-    
+.menu_informacion {
+    font-size: 1em;
+    text-align: left;
+
 }
 
-#acerca_de_mi li
-{
+#acerca_de_mi li {
     list-style-position: inside;
-   text-align: left;
-   
-    
+    text-align: left;
+
+
 }
 
- .row img
-{
+.row img {
     opacity: 0.4;
-    width: 30vw;
-    height: 700px;
-    border: 7px solid aliceblue;
-  
-}
-
-
-/*seccion experiencia*/
-
-#seccion-experiencia{
-    background-color: lightgray;
-    width: 100vw;
-    height: 100vh;
-    text-align:center;
-    align-items: center;
-    padding: 2em;
-
-}
-
-#seccion-experiencia img
-{
-    opacity: 0.6;
-    width: 40vw;
-    height: 700px;
+    width: 25vw;
+    height: 400px;
     border: 7px solid aliceblue;
     margin: 5em;
+
 }
 
-#experiencia li
-{
-    list-style-position: inside;
-    font-size: 2em;
-    
-}
-
-#experiencia ul
-{
-    padding: 3em;
-    text-align: left;
-}
-
-
-#experiencia  h2{
-    font-size: 3em;
-    color: rgba(81, 53, 241, 0.468);
-    text-align: left;
-}
 
 
 
 /*seccion estudios */
 
-#estudios{
+#estudios {
     background-color: lightgray;
     width: 100vw;
     height: 100vh;
-    text-align:center;
+    text-align: center;
     align-items: center;
     padding: 2em;
 
 }
 
-#estudios img
-{
+#estudios img {
     opacity: 0.6;
-    width: 40vw;
-    height: 700px;
+    width: 25vw;
+    height: 400px;
     border: 7px solid aliceblue;
     margin: 5em;
 }
 
-#info li
-{
+#info li {
     list-style-position: inside;
-    font-size: 2em;
+    font-size: 1em;
 }
 
-#info ul
-{
-    padding: 3em;
+#info ul {
+    padding: 2em;
     text-align: left;
 }
 
 
-#info  h2{
-    font-size: 3em;
+#info h2 {
+    font-size: 2em;
+    color: rgba(81, 53, 241, 0.468);
+    text-align: left;
+}
+
+/*seccion experiencia*/
+
+#seccion-experiencia {
+    background-color: lightgray;
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+    align-items: center;
+    padding: 2em;
+
+}
+
+#seccion-experiencia img {
+    opacity: 0.6;
+    width: 25vw;
+    height: 400px;
+    border: 7px solid aliceblue;
+    margin: 5em;
+}
+
+#experiencia li {
+    list-style-position: inside;
+    font-size: 1em;
+
+}
+
+#experiencia ul {
+    padding: 1em;
+    text-align: left;
+    margin-bottom: 250px;
+}
+
+
+#experiencia h2 {
+    font-size: 2em;
     color: rgba(81, 53, 241, 0.468);
     text-align: left;
 }
 
 
+
 /*seccion contacto*/
 
-#contacto
-{
+#contacto {
     background-color: lightgray;
     width: 100vw;
     height: 100vh;
@@ -213,32 +204,29 @@ body
     padding: 2em;
 }
 
-#contacto h2
-{
-    font-size: 3em;
+#contacto h2 {
+    font-size: 2em;
     color: rgba(81, 53, 241, 0.468);
-    text-align: center;
-    
+    text-align: left;
+
 }
 
-#imagen_contacto img
-{
+#imagen_contacto img {
     opacity: 0.6;
-    width: 40vw;
-    height: 700px;
+    width: 25vw;
+    height: 400px;
     border: 7px solid aliceblue;
-    margin: 5em;
+    margin-left: 8em;
 }
 
-#mis_redes img
-{
+#mis_redes img {
     opacity: 0.6;
-    width: 150px;
-    height: 150px;
-    border: 7px solid aliceblue;
- 
+    width: 50px;
+    height: 50px;
+    border: 3px solid aliceblue;
+    margin: 2em;
 
-    
+
 }
 
 #mis_redes {
@@ -250,12 +238,180 @@ body
 
 /*footer*/
 
-.row footer{
+
+#seccion-footer{
     background-color: lightgray;
     width: 100vw;
-    height: 5vh;
+    height: auto;
+}
+
+footer {
+   
     text-align: center;
-    font-size: 1.5em;
+    font-size: 1em;
+    color: rgba(81, 53, 241, 0.468);
+
+   
+}
+
+/*media query*/
+
+@media screen and (max-width: 700px) {
+
+
+    /*menu navegador*/
+    .menu {
+
+        flex-direction: column;
+        position: absolute;
+        padding: 2em;
+
+    }
+
+
+    .navbar {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+
+    /*acerca de mi*/
+
+    #acerca_de_mi {
+        height: auto;
+    }
+
+
+
+
+    .row img {
+        width: 20vh;
+        height: auto;
+        align-items: center;
+        
+
+    }
+
+    .menu_informacion {
+        font-size: 1em;
+        margin-top: 20px;
+
+
+    }
+
+    #acerca_de_mi h2 {
+        font-size: 1.5em;
+        margin-top: -70px;
+        text-align: center;
+    }
+
+
+    /*seccion estudios */
+
+    #estudios {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    #estudios img {
+        display: none;
+    }
+
+    #info li {
+        list-style-position: inside;
+        font-size: 1em;
+    }
+
+    #info ul {
+        text-align: left;
+    }
+
+
+    #info h2 {
+        font-size: 1.5em;
+        text-align: center;
+    }
+
+    /*seccion experiencia*/
+
+    #seccion-experiencia {
+
+        height: auto;
+        text-align: center;
+        align-items: center;
+
+    }
+
+    #seccion-experiencia img {
+        display: none;
+    }
+
+    #experiencia li {
+        list-style-position: inside;
+        font-size: 1em;
+
+    }
+
+    #experiencia ul {
+        padding: 1em;
+        text-align: left;
+    }
+
+
+    #experiencia h2 {
+        font-size: 1.5em;
+
+        text-align: center;
+    }
+
+    #experiencia {
+        margin-top: -230px;
+    }
+
+
+    /*seccion contacto*/
+
+    #contacto {
+
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #contacto h2 {
+        font-size: 1.5em;
+        text-align: center;
+
+    }
+
+    #imagen_contacto img {
+        display: none;
+    }
+
+    #mis_redes img {
+        margin: 1em;
+    }
+
+    #mis_redes {
+        align-items: center;
+        margin-top: -250px;
+    }
+
+    /*footer*/
+
+    #seccion-footer {
+
     
+        height: auto;
+    }
+
+    footer {
+        text-align: center;
+        font-size: 1em;
+        margin-top: 50px;
+    }
+
 
 }

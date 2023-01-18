@@ -11,12 +11,13 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Dosis&display=swap" rel="stylesheet">
+    <script src="cv.js"></script>
 
     <title>Mi CV</title>
 
 </head>
 
-<body >
+<body>
 
 
 
@@ -39,7 +40,7 @@
                         <li><a href="#seccion-experiencia">Experiencia</a></li>
                         <li><a href="#contacto">Contacto</a></li>
                     </ul>
-                    <button type="button" class="btn btn-dark"  id="mOscuro">Ingles</button>
+                    <button type="button" class="btn btn-dark" id="mOscuro">Ingles</button>
                 </div>
 
             </div>
@@ -123,9 +124,9 @@
 
 
     <div class="row" id="seccion-footer">
-            <footer>
-                Moya Agustin - Argentia Programa 4.0
-            </footer>
+        <footer>
+            Moya Agustin - Argentia Programa 4.0
+        </footer>
     </div>
 
 
@@ -135,27 +136,23 @@
         integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
         crossorigin="anonymous"></script>
 
-       <script>
-         const boton = document.querySelector("#mOscuro");
-        let contador= 0;
-         
+    <script>
+        let contador = 0;
+        const botonEsp = document.getElementById("mOscuro");
+        function idioma() {
+
+            if(contador== 0){
+
+                location.href = "cv_ingles.html";
+            }else{
+                location.href = "cv.html";
+            }
+        }
+        botonEsp.addEventListener('click', idioma);
 
 
-         function idioma(){
-           if(contador == 0){
-            location.href="cv_ingles.html"
-            contador ++;
-           }
-           else{
-            location.href="cv.html";
-            contador= 0;
-           }
 
-         }
-
-         boton.addEventListener('click' , idioma);
-
-       </script>
+    </script>
 
 
 </body>

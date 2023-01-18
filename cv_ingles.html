@@ -11,6 +11,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Dosis&display=swap" rel="stylesheet">
+    <script src="cv.js"></script>
 
     <title>Mi Curriculum Vitae</title>
 
@@ -136,27 +137,22 @@
         crossorigin="anonymous"></script>
 
         <script>
-            const boton = document.querySelector("#mOscuro");
-           let contador= 1;
-            
-   
-   
-            function idioma(){
-              if(contador == 0){
-               location.href="cv_ingles.html"
-               contador ++;
-              }
-              else{
-               location.href="cv.html";
-               contador= 0;
-              }
-   
+            let contador = 1;
+            const botonEsp = document.getElementById("mOscuro");
+            function idioma() {
+    
+                if(contador== 0){
+    
+                    location.href = "cv_ingles.html";
+                }else{
+                    location.href = "cv.html";
+                }
             }
-   
-            boton.addEventListener('click' , idioma);
-   
-          </script>
-
+            botonEsp.addEventListener('click', idioma);
+    
+    
+    
+        </script>
 
 </body>
 
